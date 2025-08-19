@@ -1,3 +1,4 @@
+
 import User from "../models/user.model.js";
 
 export const getUserSavedPosts = async (req, res) => {
