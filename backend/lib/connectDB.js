@@ -1,11 +1,12 @@
-import Post from "../models/post.model.js";
+import mongoose from "mongoose";
 
-const increaseVisit = async (req, res, next) => {
-  const slug = req.params.slug;
-
-  await Post.findOneAndUpdate({ slug }, { $inc: { visit: 1 } });
-
-  next();
+const connectDB = async () => {
+  try {
+    await mongoose.connect(process.env.MONGO);
+    console.log("MongoDB is connected");
+  } catch (err) {
+    console.log(err);
+  }
 };
 
-export default increaseVisit;
+export default connectDB;
