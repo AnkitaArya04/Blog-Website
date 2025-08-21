@@ -24,11 +24,11 @@ if (!PUBLISHABLE_KEY) {
 
 const router = createBrowserRouter([
   {
-    element: <MainLayout />,
+    element: <MainLayout/>,
     children: [
       {
         path: "/",
-        element: <Homepage />,
+        element: <Homepage/>,
       },
       {
         path: "/posts",
@@ -40,15 +40,15 @@ const router = createBrowserRouter([
       },
       {
         path: "/write",
-        element: <Write />,
+        element: <Write/>,
       },
       {
         path: "/login",
-        element: <LoginPage />,
+        element: <LoginPage/>,
       },
       {
         path: "/register",
-        element: <RegisterPage />,
+        element: <RegisterPage/>,
       },
     ],
   },
