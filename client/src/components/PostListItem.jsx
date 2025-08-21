@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Image from "./Image";
 import { format } from "timeago.js";

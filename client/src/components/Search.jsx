@@ -1,4 +1,3 @@
-
 import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 
 const Search = () => {

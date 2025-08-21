@@ -1,4 +1,3 @@
-
 import PostListItem from "./PostListItem";
 import { useInfiniteQuery, useQuery } from "@tanstack/react-query";
 import axios from "axios";
