@@ -182,8 +182,6 @@ const imagekit = new ImageKit({
   privateKey: process.env.IK_PRIVATE_KEY,
 });
 
-
-
 export const uploadAuth = async (req, res) => {
   const result = imagekit.getAuthenticationParameters();
   res.send(result);
