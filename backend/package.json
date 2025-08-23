@@ -15,10 +15,10 @@
     "body-parser": "^2.0.1",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
-    "express": "^5.1.0",
+    "express": "^5.0.1",
     "imagekit": "^5.2.0",
     "micro": "^10.0.1",
-    "mongoose": "^8.17.2",
+    "mongoose": "^8.7.3",
     "svix": "^1.37.0"
   }
 }
